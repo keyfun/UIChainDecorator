@@ -1,0 +1,16 @@
+PODS:
+  - UIChainDecorator (0.1.0)
+
+DEPENDENCIES:
+  - UIChainDecorator (from `../`)
+
+EXTERNAL SOURCES:
+  UIChainDecorator:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UIChainDecorator: c434e48ea5502b900cf9527d8130992a5ae9ab30
+
+PODFILE CHECKSUM: bcd97aace62c802bbb2f07b5d9eae75a7de2253f
+
+COCOAPODS: 1.2.0
