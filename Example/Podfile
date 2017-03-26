@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UIChainDecorator_Example' do
+  pod 'UIChainDecorator', :path => '../'
+
+  target 'UIChainDecorator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
