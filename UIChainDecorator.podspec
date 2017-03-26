@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'UIChainDecorator'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of UIChainDecorator.'
+  s.summary          = 'UIChainDecorator library is extension library to change default set method of UIKit to a chain method (return object itself)'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+UIChainDecorator library is extension library to change default set method of UIKit to a chain method (return object itself)
+Some UI decorate coding like textColor, alignment can be centralize in lazy var
                        DESC
 
-  s.homepage         = 'https://github.com/rudolphwong2002@gmail.com/UIChainDecorator'
+  s.homepage         = 'https://github.com/springwong/UIChainDecorator'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'rudolphwong2002@gmail.com' => 'development.spring@gmail.com' }
-  s.source           = { :git => 'https://github.com/rudolphwong2002@gmail.com/UIChainDecorator.git', :tag => s.version.to_s }
+  s.author           = { 'development.spring@gmail.com' => 'development.spring@gmail.com' }
+  s.source           = { :git => 'https://github.com/springwong/UIChainDecorator.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

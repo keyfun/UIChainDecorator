@@ -22,7 +22,7 @@ pod "UIChainDecorator"
 
 ## Author
 
-rudolphwong2002@gmail.com, development.spring@gmail.com
+development.spring@gmail.com
 
 ## License
 
