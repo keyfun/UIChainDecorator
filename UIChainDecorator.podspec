@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIChainDecorator'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'UIChainDecorator library is extension library to change default set method of UIKit to a chain method (return object itself)'
 
 # This description is used to generate tags and improve search results.
