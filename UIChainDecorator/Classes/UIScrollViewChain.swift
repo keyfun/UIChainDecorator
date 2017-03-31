@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIScrollView {
+public extension UIScrollView {
     @discardableResult public func isPagingEnable(_ isEnable : Bool) -> Self {
         self.isPagingEnabled = isEnable
         return self

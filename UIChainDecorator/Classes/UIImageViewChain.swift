@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIImageView {
+public extension UIImageView {
     @discardableResult public func imageName(_ imageName : String) -> Self{
         self.image = UIImage(named: imageName)
         return self
