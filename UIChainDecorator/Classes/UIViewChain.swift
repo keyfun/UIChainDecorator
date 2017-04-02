@@ -33,4 +33,14 @@ extension UIView {
         self.isOpaque = isOpaque
         return self
     }
+    
+    @discardableResult public func borderColor(_ color : UIColor?, _ width : CGFloat = 1) -> Self {
+        if color != nil {
+            self.layer.borderColor = color?.cgColor
+        }else{
+            self.layer.borderColor = nil
+        }
+        self.layer.borderWidth = width
+        return self
+    }
 }

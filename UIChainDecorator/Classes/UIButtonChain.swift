@@ -29,6 +29,16 @@ extension UIButton{
         }
         return self
     }
+    @discardableResult public func imageColor(_ color : UIColor?, _ state : UIControlState = .normal) -> Self{
+        self.setImage(UIImage.colorImage(color), for: state)
+        return self
+    }
+    @discardableResult public func imageColor(_ color : UIColor?, _ states : [UIControlState]) -> Self{
+        for state in states {
+            self.setImage(UIImage.colorImage(color), for: state)
+        }
+        return self
+    }
     @discardableResult public func backgroundImage(_ image : UIImage?, _ state : UIControlState = .normal) -> Self {
         self.setBackgroundImage(image, for: state)
         return self
@@ -36,6 +46,16 @@ extension UIButton{
     @discardableResult public func backgroundImage(_ image : UIImage?, _ states : [UIControlState]) -> Self {
         for state in states {
             self.setBackgroundImage(image, for: state)
+        }
+        return self
+    }
+    @discardableResult public func backgroundImageColor(_ color : UIColor?, _ state : UIControlState = .normal) -> Self {
+        self.setBackgroundImage(UIImage.colorImage(color), for: state)
+        return self
+    }
+    @discardableResult public func backgroundImageColor(_ color : UIColor?, _ states : [UIControlState]) -> Self {
+        for state in states {
+            self.setBackgroundImage(UIImage.colorImage(color), for: state)
         }
         return self
     }
