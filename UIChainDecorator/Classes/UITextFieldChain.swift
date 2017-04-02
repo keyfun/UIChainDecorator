@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UITextField {
+public extension UITextField {
     @discardableResult public func placeHolder(_ placeholder : String) -> Self {
         self.placeholder = placeholder
         return self

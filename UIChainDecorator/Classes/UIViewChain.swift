@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIView {
+public extension UIView {
     @discardableResult public func clipToBounds(_ isClipToBounds : Bool) -> Self {
         self.clipsToBounds = isClipToBounds
         return self
